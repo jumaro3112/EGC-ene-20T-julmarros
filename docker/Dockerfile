@@ -10,7 +10,7 @@ RUN pip install ipython
 
 WORKDIR /app
 
-RUN git clone https://github.com/AndresJR/egc20testT.git .
+RUN git clone https://github.com/jumaro3112/EGC-830-julmarros .
 RUN pip install -r requirements.txt
 
 WORKDIR /app/decide
